@@ -1,8 +1,7 @@
-
 #include <stdio.h>
-#include <"status.h">
-#include <"controls.h">
-#include<"communication.h">
+//#include <"status.h">
+#include"controls.h"
+//#include<"communication.h">
 
 int main()
 {
@@ -15,7 +14,7 @@ int main()
        case 1:
             printf("valve 1 opened\n");
             valve1open();
-            main();
+             main();
         case 2:
             printf("valve 1 closed\n");
             main();
@@ -32,4 +31,3 @@ int main()
         
        return 0;
 }
-
